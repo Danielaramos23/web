@@ -7,18 +7,19 @@
 
 body {
   font-family: "Helvetica Neue", sans-serif;
+  background-color: #fff;
+  color: #000;
   line-height: 1.6;
-  color: #333;
-  background-color: #f9f9f9;
 }
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 .hero {
-  background: linear-gradient(to right, #7F00FF, #E100FF);
-  color: white;
+  background-color: #000;
+  color: #fff;
   padding: 100px 20px;
   text-align: center;
 }
@@ -34,16 +35,19 @@ a {
 }
 
 .btn-primary {
-  background-color: white;
-  color: #7F00FF;
-  padding: 12px 24px;
+  background-color: #fff;
+  color: #000;
+  padding: 12px 28px;
+  border: 2px solid #000;
   border-radius: 30px;
   font-weight: bold;
-  transition: 0.3s ease;
+  transition: all 0.3s ease;
+  display: inline-block;
 }
 
 .btn-primary:hover {
-  background-color: #f0f0f0;
+  background-color: #000;
+  color: #fff;
 }
 
 .section {
@@ -65,10 +69,10 @@ a {
 }
 
 .benefit-card {
-  background-color: white;
+  background-color: #f5f5f5;
   padding: 30px;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
   transition: transform 0.3s ease;
 }
 
@@ -79,7 +83,7 @@ a {
 .footer {
   text-align: center;
   padding: 20px;
-  background-color: #eee;
+  background-color: #000;
+  color: #fff;
   font-size: 0.9rem;
-  color: #666;
 }
