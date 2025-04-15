@@ -1,4 +1,4 @@
-// Puedes añadir funcionalidades aquí más adelante
+// Por ahora solo un mensaje de consola
 document.addEventListener('DOMContentLoaded', () => {
-  console.log("Página cargada correctamente.");
+  console.log("Página lista en blanco y negro.");
 });
